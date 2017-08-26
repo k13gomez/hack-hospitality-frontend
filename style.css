@@ -3,15 +3,16 @@
 }*/
 
 body {
+	font-size: 4vw;
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 5vw;
 }
 
 input {
 	width: 40vw;
-	font-size: .7em;
+	font-size: 4.8vw;
 }
 
 .headsUp {
@@ -20,31 +21,129 @@ input {
 
 .headsUp div {
 	border: 1px solid red;
-	height: 25%;
+	height: 10vh;
 	border-radius: 2%/10%;
+	font-size: 4vh;
+}
+
+h4 {
+	height: 5vh;
+	text-align: center;
+}
+
+h4 a {
+	font-size: 4vh;
+}
+
+h2 {
+	font-size: 4vh;
 }
 
 .table {
 	/*width: 50%;*/
 	margin: 0 auto;
+	font-size: 3vh;
+	text-align: center;
 }
 
 .graph {
-	height: 200px;
+	height: 40vh;
 	/*width: 70%;*/
 	margin: 0 auto;
 	border: 1px dashed green;
+	font-size: 5vh;
+	text-align: center;
 }
 
 .donut {
-	height: 200px;
-	width: 200px;
+	height: 40vh;
+	width: 40vh;
 	border: 2px dotted purple;
 	margin: 0 auto;
+	font-size: 5vh;
 }
 
 .downloadLink {
-	width: 50%;
+	width: 75%;
 	margin: 0 auto;
 	text-align: center;
+	font-size: 3vh;
+}
+
+@media screen and (orientation:landscape) { 
+	body {
+		font-size: 4vw;
+	}
+
+	.headsUp div {
+		font-size: 4vw;
+	}
+
+	h4 a {
+	font-size: 4vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+	}
+
+	.table {
+		font-size: 3vw;
+	}
+
+	.col-lg-4 {
+		float: left;
+		width: 33.33333333333%;
+	}
+
+	.downloadLink {
+		font-size: 3vw;
+	}
+
+ }
+
+@media only screen and (min-device-width : 992px) {
+	body {
+
+	}
+
+	.headsUp div{
+		height: 20vh;
+	}
+}
+
+@media only screen and (min-device-width: 1200px) {
+
+}
+
+@media only screen and (min-device-width: 1200px) and (orientation: landscape) {
+	body {
+
+	}
+
+	.headsUp {
+		height: 20vh;
+	}
+
+	.headsUp div{
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (min-device-width: 1365px) {
+	body {
+
+	}
+
+	.headsUp div {
+		font-size: 2.5vw;
+	}
+
+	h4 a{
+		font-size: 3vw;
+	}
+
+	.graph {
+		height: 55vh;
+	}
 }

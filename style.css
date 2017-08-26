@@ -1,0 +1,15 @@
+/*.row {
+	height: 400px;
+}*/
+
+.table {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.graph {
+	height: 200px;
+	width: 70%;
+	margin: 0 auto;
+	border: 1px dashed green;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pleasure-gulp",
+  "version": "1.0.0",
+  "description": "Plesure Gulp",
+  "dependencies": {},
+  "private": "true",
+  "devDependencies": {
+    "path": "latest",
+    "gulp-minify-html": "latest",
+    "gulp-less": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-merge": "latest",
+    "gulp-concat": "latest",
+    "gulp-uglify": "latest"
+  }
+}

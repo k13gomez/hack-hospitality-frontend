@@ -4,6 +4,7 @@ html, body {
 }
 
 body{
+	background: rgba(215, 255,125,.5);
 }
 
 /*Change iframe scale at higher widths for responsivity.*/
@@ -87,33 +88,6 @@ iframe {
 .col-md-12 iframe{
 	height: 65vh;
 	width: 100%;
-}
-
-#totalOrders {
-	height: 60vh;
-	width: 100%;
-}
-
-#cancelledOrders{
-	height: 60vh;
-	width: 100%;
-}
-
-#returningCustomers{
-	height: 80vh;
-	width: 101%;
-	margin-right: 10%;
-
-}
-
-#totRevCusStore{
-	height: 60vh;
-	width: 100%;
-}
-
-#totRev{
-	height: 60vh;
-	/*transform: scale(1, .5);*/
 }
 
 @media screen and (max-width: 576px) {
@@ -235,6 +209,7 @@ iframe {
 }
 
 @media only screen and (min-width: 1366px) and (orientation: landscape) {
+
 
 	#totalOrders {
 		height: 26vw;

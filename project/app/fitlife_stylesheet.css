@@ -49,12 +49,26 @@ body{
     color: #94D500;
 }
 
+.layer-container .menu-layer li.open:before, .layer-container .menu-layer li:hover:before {
+    color: #94D500;
+}
+
 .bg-indigo{
 	background: #000;
+	transition: background .3s;
+}
+
+.bg-indigo:hover{
+	background: #171717;
 }
 
 .bg-cyan{
 	background: #000;
+	transition: background .3s;
+}
+
+.bg-cyan:hover{
+	background: #171717;
 }
 
 iframe {

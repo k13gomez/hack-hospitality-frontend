@@ -268,3 +268,7 @@ iframe {
 		height: 30vw;
 	}
 }
+
+@media only screen and (min-width: 2800px) and (orientation: landscape) {
+
+}

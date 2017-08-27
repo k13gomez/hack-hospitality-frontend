@@ -8,6 +8,55 @@ body{
 
 /*Change iframe scale at higher widths for responsivity.*/
 
+.page-header.full-content {
+	background: #000000;
+}
+
+.layer-container .menu-layer.active {
+
+}
+
+.nav-bar-border {
+	background: #94D500;
+	border: 1px solid #94D500;
+}
+
+.nav-menu .hamburger .patty {
+    background: #FFFFFF;
+}
+
+.nav-search .search:before {
+    border-color: #FFFFFF;
+}
+
+.nav-search .search:after {
+    background: #FFFFFF;
+}
+
+.overlay .starting-point span {
+    background-color: #94D500;
+}
+
+.layer-container .menu-layer.active {
+    background: #94D500;
+}
+
+.layer-container .menu-layer li.open > a, .layer-container .menu-layer li:hover > a {
+    color: #94D500;
+}
+
+.layer-container .menu-layer li .child-menu li a {
+    color: #94D500;
+}
+
+.bg-indigo{
+	background: #000;
+}
+
+.bg-cyan{
+	background: #000;
+}
+
 iframe {
 	border: none;
 	border-radius: 10px;
@@ -17,7 +66,7 @@ iframe {
 }
 
 .col-md-6 iframe{
-	height: 50vh;
+	height: 55vh;
 	width: 100%;
 }
 
@@ -54,14 +103,34 @@ iframe {
 }
 
 @media screen and (max-width: 576px) {
-  .col-md-9 iframe {
+  .col-md-12 iframe {
     visibility: hidden;
     display: none;
   }
+
+  #totalOrders{
+  	height: 80vh;
+  }
+
+  #returningCustomers{
+	height: 75vh;
+	width: 101%;
+	margin-right: 10%;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	#totalOrders{
+  		height: 60vh;
+  	}
 }
 
 /*queries for ipad*/
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 700px) {
 
 	#totalOrders {
 		height: 35vh;
